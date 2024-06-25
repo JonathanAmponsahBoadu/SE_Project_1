@@ -18,7 +18,7 @@ const Navbar = () => {
               style={{
                 height: "30px",
                 width: "auto",
-                marginRight: "8px",
+                marginRight: "32px", // Increased margin to space out the images
               }}
             />
             <img
@@ -31,7 +31,15 @@ const Navbar = () => {
             />
           </Box>
         </Box>
-        <Box>
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          {/* Login link */}
+          <Link href="/login" passHref>
+            <Button sx={{ color: "white" }}>Login</Button>
+          </Link>
+          {/* Register link */}
+          <Link href="/register" passHref>
+            <Button sx={{ color: "white" }}>Register</Button>
+          </Link>
           {/* Dashboard link */}
           <Link href="/dashboard" passHref>
             <Button sx={{ color: "white" }}>Dashboard</Button>

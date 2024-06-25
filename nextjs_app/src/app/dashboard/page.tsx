@@ -14,7 +14,7 @@ import Image from "next/image";
 import { FaCediSign, FaCentSign } from "react-icons/fa6";
 const DashboardPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center">
+    <div className="min-h-screen bg-blue-300 flex flex-col items-center">
       <header className="w-full bg-white shadow p-4 flex justify-between items-center">
         <h1 className="text-2xl font-semibold">Home</h1>
         <div className="flex items-center space-x-4">
